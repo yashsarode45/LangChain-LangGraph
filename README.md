@@ -8,6 +8,7 @@ I've created this as I was learning, in a way that it can help anyone new to the
 
 - `LangChain/`: Stepwise LangChain v1.x notebooks (messages, tool calling, agents, RAG, middleware, hybrid search, query enhancement).
 - `LangGraph/`: LangGraph v1.x notebooks focused on graph-based agents and orchestration patterns.
+- `MiniProjects/`: Practical applications demonstrating LangGraph patterns in real-world scenarios.
 
 ### LangChain Track (recommended order)
 
@@ -34,12 +35,12 @@ I've created this as I was learning, in a way that it can help anyone new to the
 5. `05_routing_workflow.ipynb` — Conditional routing agents.
 6. `06_orchestrator_worker_workflow.ipynb` — Orchestrator/worker topology.
 7. `07_evaluator_optimizer_workflow.ipynb` — Evaluator/optimizer loops.
-
-Will be adding more topics to this like:
-
-- Types of RAGs (agentic, adaptive, autonomous, corrective, multiagent)
-- Knowledge graphs and using graph DB in creating agents.
-- Some mini projects.
+8. `08_agentic_rag.ipynb` — Agentic RAG with tool-based retrieval, document relevance grading, and query rewriting.
+9. `09_autonomous_rag.ipynb` — Autonomous RAG with query planning, chain-of-thought reasoning, iterative retrieval, and self-reflection.
+10. `10_adaptive_rag.ipynb` — Adaptive RAG that dynamically adjusts retrieval strategy based on query complexity.
+11. `11_corrective_rag.ipynb` — Corrective RAG with feedback loops to improve answer quality.
+12. `12_multi_agent_rag.ipynb` — Multi-agent RAG with coordinated agents for complex retrieval tasks.
+13. `13_kg_neo4j_rag.ipynb` — Knowledge graph RAG using Neo4j for structured knowledge retrieval.
 
 ### Requirements
 
@@ -63,6 +64,10 @@ uv run jupyter lab  # or: uv run jupyter notebook
 ```
 
 Then open notebooks from `LangChain/` or `LangGraph/` in the listed order.
+
+### Mini Projects
+
+- `WebSearch_NewsSummarizer_Bot/`: A LangGraph application demonstrating stateful agentic AI workflows with three use cases: basic chatbot, web-enabled chatbot, and AI news summarizer. Features Streamlit UI, tool integration with Tavily, and sequential workflow patterns.
 
 ### Notes
 
