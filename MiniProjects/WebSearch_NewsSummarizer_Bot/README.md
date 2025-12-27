@@ -1,6 +1,8 @@
 # WebSearch NewsSummarizer Bot
 
 A LangGraph application demonstrating stateful agentic AI workflows with three distinct use cases. Built with LangChain and LangGraph v1.x, this project showcases how to construct different graph patterns from simple linear workflows to tool enabled agents.
+<img width="1897" height="862" alt="Screenshot 2025-12-27 at 4 47 26 PM" src="https://github.com/user-attachments/assets/cd20c414-09b6-4958-ba35-dc9d323c101a" />
+<img width="1902" height="848" alt="Screenshot 2025-12-27 at 4 51 41 PM" src="https://github.com/user-attachments/assets/55124d00-51b0-41f5-9db4-2f7255788ee5" />
 
 ## Overview
 
