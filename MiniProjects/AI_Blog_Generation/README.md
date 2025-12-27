@@ -1,6 +1,10 @@
 # AI Blog Generation
 
 A LangGraph v1.x application for generating blog posts from topics with optional translation support.
+<img width="1689" height="880" alt="Screenshot 2025-12-27 at 6 36 40 PM" src="https://github.com/user-attachments/assets/fd5fc363-b6d7-4375-84b0-3dac912c60c0" />
+<img width="1689" height="880" alt="Screenshot 2025-12-27 at 6 39 23 PM" src="https://github.com/user-attachments/assets/62181fcf-d3de-420f-9331-84f7a6516342" />
+<img width="1689" height="811" alt="Screenshot 2025-12-27 at 6 37 13 PM" src="https://github.com/user-attachments/assets/ccf80cf8-6231-462e-aad0-6da003a0dfa8" />
+
 
 ## Features
 
