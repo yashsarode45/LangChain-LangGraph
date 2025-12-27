@@ -69,6 +69,8 @@ Then open notebooks from `LangChain/` or `LangGraph/` in the listed order.
 
 - `WebSearch_NewsSummarizer_Bot/`: A LangGraph application demonstrating stateful agentic AI workflows with three use cases: basic chatbot, web-enabled chatbot, and AI news summarizer. Features Streamlit UI, tool integration with Tavily, and sequential workflow patterns.
 
+- `AI_Blog_Generation/`: A LangGraph application for generating blog posts from topics with optional translation support. Demonstrates conditional routing patterns with two workflows: basic blog generation (linear flow) and blog generation with translation (conditional edges for Hindi/French). Features FastAPI REST API, LangGraph Studio integration, and state management with TypedDict and Pydantic models.
+
 ### Notes
 
 - Content targets the v1.x APIs (e.g., `create_agent`, content blocks, streamlined namespaces) as outlined in the LangChain v1 release notes.
