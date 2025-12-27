@@ -1,7 +1,7 @@
 ## LangChain & LangGraph v1.x Examples & Explanations
 
 This repo contains Notebooks that walk through modern LangChain and LangGraph patterns using the latest v1.x APIs.
-Content is organized to start from fundamentals and build up on that.
+Content is organized to start from the fundamentals and build up on that.
 I've created this as I was learning, in a way that it can help anyone new to the Langchain ecosystem to catch up easily.
 
 ### Repo Layout
@@ -42,6 +42,12 @@ I've created this as I was learning, in a way that it can help anyone new to the
 12. `12_multi_agent_rag.ipynb` — Multi-agent RAG with coordinated agents for complex retrieval tasks.
 13. `13_kg_neo4j_rag.ipynb` — Knowledge graph RAG using Neo4j for structured knowledge retrieval.
 
+### Mini Projects
+
+- `WebSearch_NewsSummarizer_Bot/`: A LangGraph application demonstrating stateful agentic AI workflows with three use cases: basic chatbot, web-enabled chatbot, and AI news summarizer. Features Streamlit UI, tool integration with Tavily, and sequential workflow patterns.
+
+- `AI_Blog_Generation/`: A LangGraph application for generating blog posts from topics with optional translation support. Demonstrates conditional routing patterns with two workflows: basic blog generation (linear flow) and blog generation with translation (conditional edges for Hindi/French). Features FastAPI REST API, LangGraph Studio integration, and state management with TypedDict and Pydantic models.
+
 ### Requirements
 
 - Python 3.13+
@@ -64,16 +70,6 @@ uv run jupyter lab  # or: uv run jupyter notebook
 ```
 
 Then open notebooks from `LangChain/` or `LangGraph/` in the listed order.
-
-### Mini Projects
-
-- `WebSearch_NewsSummarizer_Bot/`: A LangGraph application demonstrating stateful agentic AI workflows with three use cases: basic chatbot, web-enabled chatbot, and AI news summarizer. Features Streamlit UI, tool integration with Tavily, and sequential workflow patterns.
-
-- `AI_Blog_Generation/`: A LangGraph application for generating blog posts from topics with optional translation support. Demonstrates conditional routing patterns with two workflows: basic blog generation (linear flow) and blog generation with translation (conditional edges for Hindi/French). Features FastAPI REST API, LangGraph Studio integration, and state management with TypedDict and Pydantic models.
-
-### Notes
-
-- Content targets the v1.x APIs (e.g., `create_agent`, content blocks, streamlined namespaces) as outlined in the LangChain v1 release notes.
 
 ### References
 
